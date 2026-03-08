@@ -1,12 +1,12 @@
-baseURL = 'https://digital-india.cashlessconsumer.in'
+baseURL = 'https://dpiwatch.cashlessconsumer.in'
 languageCode = 'en-us'
 title = 'DPI Watch'
 theme = 'PaperMod'
 
 [params]
-  description = 'Weekly Digital Governance Newsletter – tracking Aadhaar, DigiLocker, ONDC, API Setu, and India'
-  keywords = ['Digital India', 'DPI', 'Aadhaar', 'eGovernance', 'India Stack', 'UIDAI', 'NPCI', 'ONDC']
-  images = ['https://digital-india.cashlessconsumer.in/cover.png']
+  description = 'AI-powered Digital Public Infrastructure tracker for India — daily DPI briefs at 8:00 AM, themed deep dives at 8:30 AM'
+  keywords = ['DPI', 'Digital India', 'Aadhaar', 'UPI', 'ONDC', 'DigiLocker', 'India Stack', 'UIDAI', 'NPCI', 'eGovernance', 'AI']
+  images = ['https://dpiwatch.cashlessconsumer.in/cover.png']
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
@@ -23,24 +23,21 @@ theme = 'PaperMod'
   tocopen = false
   enableEmoji = true
 
-  [params.homeInfoParams]
-    Title = "DPI Watch"
-    Content = "Tracking India's Digital Public Infrastructure (DPI) ecosystem — from Aadhaar to UPI, ONDC to DigiLocker. Automated daily briefs + themed deep dives."
-
-  [[params.profileMode.buttons]]
-    name = "📰 Latest Posts"
-    url = "posts"
-    weight = 10
-
-  [[params.profileMode.buttons]]
-    name = "ℹ️ About"
-    url = "about"
-    weight = 20
-
-  [[params.profileMode.buttons]]
-    name = "🤖 Agents"
-    url = "agents"
-    weight = 30
+  # Profile Mode Sidebar
+  [params.profileMode]
+    enabled = true
+    Title = "📡 DPI Watch"
+    Subtitle = "AI-powered Digital Public Infrastructure tracker for India  
+Daily briefs at 8:00 AM · Themed deep dives at 8:30 AM"
+    imageUrl = "/avatar.png"
+    imageTitle = "DPI Watch"
+    imageWidth = 120
+    imageHeight = 120
+    buttons = [
+      {name = "📰 Read Latest", url = "posts"},
+      {name = "🤖 View Agents", url = "agents"},
+      {name = "ℹ️ About", url = "about"}
+    ]
 
   [params.assets]
     favicon = "/favicon.ico"
@@ -62,14 +59,14 @@ theme = 'PaperMod'
     name = "CashlessConsumer"
     email = ""
     link = "https://cashlessconsumer.in"
-    bio = "Consumer advocacy & research for India's digital payments ecosystem"
+    bio = "Consumer advocacy & research for India's digital public infrastructure"
 
   [[params.socialIcons]]
     name = 'github'
     url = 'https://github.com/CCAgentOrg/dpiwatch'
 
   [[params.socialIcons]]
-    name = 'twitter'
+    name = 'x'
     url = 'https://twitter.com/CashlessConsumer'
 
   [[params.socialIcons]]
