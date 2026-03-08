@@ -4,7 +4,7 @@ date: 2026-03-08T12:00:00+05:30
 draft: false
 tags: ["Agents", "AI", "DPI", "Automation"]
 categories: ["Meta"]
-description: "Full agent instruction for the Themed DPI Deep Dive — DPI Watch's 8:30 AM rotating deep-dive agent"
+description: "Full agent instruction for the Themed DPI Deep Dive — Digital India Archiver's 8:30 AM rotating deep-dive agent"
 ---
 
 # 🤖 Agent: Themed DPI Deep Dive
@@ -14,7 +14,7 @@ description: "Full agent instruction for the Themed DPI Deep Dive — DPI Watch'
 | Property | Value |
 |----------|-------|
 | **Name** | Themed DPI Deep Dive |
-| **Blog** | DPI Watch |
+| **Blog** | Digital India Archiver |
 | **Schedule** | Daily @ 8:30 AM IST |
 | **Coverage** | Last 7 days |
 | **Model** | minimax-m2.5 |
@@ -159,7 +159,7 @@ description: "Weekly analysis of [Theme] layer developments in India's Digital P
 ### 5. Publishing Commands
 
 ```bash
-cd /home/.z/workspaces/dpiwatch
+cd /home/.z/workspaces/digital-india-newsletter
 git checkout main
 git pull origin main
 THEME=$(date +%A | tr '[:upper:]' '[:lower:]')
@@ -184,7 +184,7 @@ git push origin main
 ## How to Improve This Agent
 
 ### Suggest Changes
-1. **Open an Issue**: [github.com/CCAgentOrg/dpiwatch/issues](https://github.com/CCAgentOrg/dpiwatch/issues)
+1. **Open an Issue**: [github.com/CCAgentOrg/digital-india-newsletter/issues](https://github.com/CCAgentOrg/digital-india-newsletter/issues)
 2. **Submit a PR**: Edit `content/agents/themed-dpi-deep-dive-agent.md`
 
 ---
@@ -193,8 +193,8 @@ git push origin main
 
 | Date | Change | Commit |
 |------|--------|--------|
-| 2026-03-08 | Initial agent creation with 7-day theme rotation | [527aabc](https://github.com/CCAgentOrg/dpiwatch/commit/527aabc) |
+| 2026-03-08 | Initial agent creation with 7-day theme rotation | [527aabc](https://github.com/CCAgentOrg/digital-india-newsletter/commit/527aabc) |
 
 ---
 
-*This agent is part of the DPI Watch project. All agent instructions are open source under CC BY-SA 4.0.*
+*This agent is part of the Digital India Archiver project. All agent instructions are open source under CC BY-SA 4.0.*
