@@ -304,6 +304,41 @@ ONDC is transforming Indian e-commerce by democratizing digital trade. Small sel
 
 ---
 
+## Citizen Rights Analysis
+
+### Privacy Implications
+- Transaction data shared across multiple ONDC participants
+- Buyer and seller data distributed across network
+- No central privacy control
+
+### Data Protection Concerns
+- **Data Silos**: Each participant stores data differently
+- **Third-Party Sharing**: Merchant data shared with logistics, payment gateways
+- **No Uniform Policy**: Varying privacy practices across participants
+
+### Digital Inclusion Issues
+- **Tech Requirements**: Requires smartphone, internet, digital literacy
+- **Seller Exclusion**: Small kiranas struggle with app-based selling
+- **Language Barriers**: Vernacular language support limited
+
+### User Risks
+- **Fake Sellers**: Counterfeit products from unverified merchants
+- **Dispute Resolution**: Complex multi-party disputes (buyer-seller-logistics-gateway)
+- **Price Manipulation**: Algorithmic pricing can disadvantage consumers
+
+### Safeguards
+- Buy from verified sellers with good ratings
+- Use ONDC's dispute resolution mechanism
+- Compare prices across apps before purchase
+
+### Complaints & Grievance Redressal
+- **ONDC Grievance**: ondc.org/grievance
+- **Consumer Courts**: District Consumer Forums
+- **State DPI**: For network issues
+- **Payment Gateway**: For payment disputes
+
+---
+
 ## Prime References
 
 - [ONDC Official Website](https://www.ondc.org/) - Open Network for Digital Commerce

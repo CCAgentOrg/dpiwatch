@@ -272,6 +272,40 @@ DigiLocker has transformed how Indians store and share documents. From eliminati
 
 ---
 
+## Citizen Rights Analysis
+
+### Privacy Implications
+- Documents stored digitally can be accessed by multiple agencies
+- Access logs track when documents are viewed/downloaded
+- Government agencies can access documents without explicit consent
+
+### Data Protection Concerns
+- **Data Localization**: Servers in India (MeitY mandate)
+- **Third-Party Access**: Law enforcement with valid requests
+- **Breach Risk**: Centralized document repository
+
+### Digital Inclusion Issues
+- **Digital Literacy**: Requires smartphone, internet access
+- **Verification Issues**: Document digitization not always accurate
+- **Offline Gap**: Rural areas with poor connectivity struggle
+
+### User Risks
+- **Document Misuse**: Stolen digital documents harder to revoke
+- **Fake Profiles**: Identity theft using digitized documents
+- **Data Persistence**: Digital footprint lasts indefinitely
+
+### Safeguards
+- Review access logs regularly
+- Use DigiLocker's privacy settings
+- Download documents only when needed
+
+### Complaints & Grievance Redressal
+- **DigiLocker Support**: digilocker.gov.in/support
+- **MeitY**: meity.gov.in
+- **Cyber Crime**: cybercrime.gov.in
+
+---
+
 ## Prime References
 
 - [DigiLocker Official Website](https://digilocker.gov.in/) - India's document wallet platform
