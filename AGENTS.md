@@ -22,7 +22,7 @@ Full agent instructions are open source and version-controlled:
 
 We welcome community contributions to improve the agents:
 
-1. **Open an Issue**: [github.com/CCAgentOrg/digital-india-newsletter/issues](https://github.com/CCAgentOrg/digital-india-newsletter/issues)
+1. **Open an Issue**: [github.com/CCAgentOrg/dpiwatch/issues](https://github.com/CCAgentOrg/dpiwatch/issues)
    - Report inaccurate coverage
    - Suggest new oracle sources to check
    - Request new topic areas

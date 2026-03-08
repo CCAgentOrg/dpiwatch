@@ -171,8 +171,8 @@ description: "Daily roundup covering all 7 layers of India's Digital Public Infr
 
 ```bash
 # Clone repo
-git clone https://github.com/CCAgentOrg/digital-india-newsletter.git
-cd digital-india-newsletter
+git clone https://github.com/CCAgentOrg/dpiwatch.git
+cd dpiwatch
 
 # Checkout main branch
 git checkout main
@@ -215,7 +215,7 @@ git push origin main
 ## How to Improve This Agent
 
 ### Suggest Changes
-1. **Open an Issue**: [github.com/CCAgentOrg/digital-india-newsletter/issues](https://github.com/CCAgentOrg/digital-india-newsletter/issues)
+1. **Open an Issue**: [github.com/CCAgentOrg/dpiwatch/issues](https://github.com/CCAgentOrg/dpiwatch/issues)
    - Describe improvements
    - Suggest new oracle sources
    - Report inaccuracies
@@ -231,7 +231,7 @@ git push origin main
 ### Version History
 | Date | Change | Commit |
 |------|--------|--------|
-| 2026-03-08 | Initial agent with 7-layer coverage | [816e734](https://github.com/CCAgentOrg/digital-india-newsletter/commit/816e734) |
+| 2026-03-08 | Initial agent with 7-layer coverage | [816e734](https://github.com/CCAgentOrg/dpiwatch/commit/816e734) |
 
 ---
 

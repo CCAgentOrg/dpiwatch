@@ -1,5 +1,5 @@
 ---
-title: "Digital India Archiver"
+title: "DPI Watch"
 description: "Tracking India's Digital Public Infrastructure (DPI) ecosystem — from Aadhaar to UPI, ONDC to DigiLocker. Automated daily briefs + themed deep dives."
 date: 2026-03-08T10:00:00+05:30
 draft: false
@@ -10,9 +10,9 @@ draft: false
 {
   "@context": "https://schema.org",
   "@type": "Blog",
-  "name": "Digital India Archiver",
+  "name": "DPI Watch",
   "description": "Tracking India's Digital Public Infrastructure (DPI) ecosystem",
-  "url": "https://digitalindia.cashlessconsumer.in",
+  "url": "https://dpiwatch.cashlessconsumer.in",
   "publisher": {
     "@type": "Organization",
     "name": "CashlessConsumer",
@@ -41,7 +41,7 @@ draft: false
   <p style="color: #975a16; margin: 0 0 1rem 0;">All content is AI-generated with source verification. View the agents or suggest improvements.</p>
   <a href="/agents/" style="background: #ed8936; color: white; padding: 0.75rem 2rem; border-radius: 4px; text-decoration: none; display: inline-block; font-weight: 600;">View Agents</a>
   <span style="margin: 0 0.5rem;">|</span>
-  <a href="https://github.com/CCAgentOrg/digital-india-newsletter" target="_blank" style="background: #2d3748; color: white; padding: 0.75rem 2rem; border-radius: 4px; text-decoration: none; display: inline-block; font-weight: 600;">Contribute</a>
+  <a href="https://github.com/CCAgentOrg/dpiwatch" target="_blank" style="background: #2d3748; color: white; padding: 0.75rem 2rem; border-radius: 4px; text-decoration: none; display: inline-block; font-weight: 600;">Contribute</a>
 </div>
 
 <!-- How It Works -->

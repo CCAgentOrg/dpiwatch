@@ -1,6 +1,6 @@
 baseURL = 'https://digital-india.cashlessconsumer.in'
 languageCode = 'en-us'
-title = 'Digital India Archiver'
+title = 'DPI Watch'
 theme = 'PaperMod'
 
 [params]
@@ -24,7 +24,7 @@ theme = 'PaperMod'
   enableEmoji = true
 
   [params.homeInfoParams]
-    Title = "Digital India Archiver"
+    Title = "DPI Watch"
     Content = "Tracking India's Digital Public Infrastructure (DPI) ecosystem — from Aadhaar to UPI, ONDC to DigiLocker. Automated daily briefs + themed deep dives."
 
   [[params.profileMode.buttons]]
@@ -54,7 +54,7 @@ theme = 'PaperMod'
     hiddenInSingle = false
 
   [params.editPost]
-    URL = "https://github.com/CCAgentOrg/digital-india-newsletter/content"
+    URL = "https://github.com/CCAgentOrg/dpiwatch/content"
     Text = "✏️ Suggest Changes"
     appendFilePath = true
 
@@ -66,7 +66,7 @@ theme = 'PaperMod'
 
   [[params.socialIcons]]
     name = 'github'
-    url = 'https://github.com/CCAgentOrg/digital-india-newsletter'
+    url = 'https://github.com/CCAgentOrg/dpiwatch'
 
   [[params.socialIcons]]
     name = 'twitter'

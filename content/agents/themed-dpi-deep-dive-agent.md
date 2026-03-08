@@ -159,7 +159,7 @@ description: "Weekly analysis of [Theme] layer developments in India's Digital P
 ### 5. Publishing Commands
 
 ```bash
-cd /home/.z/workspaces/digital-india-newsletter
+cd /home/.z/workspaces/dpiwatch
 git checkout main
 git pull origin main
 THEME=$(date +%A | tr '[:upper:]' '[:lower:]')
@@ -184,7 +184,7 @@ git push origin main
 ## How to Improve This Agent
 
 ### Suggest Changes
-1. **Open an Issue**: [github.com/CCAgentOrg/digital-india-newsletter/issues](https://github.com/CCAgentOrg/digital-india-newsletter/issues)
+1. **Open an Issue**: [github.com/CCAgentOrg/dpiwatch/issues](https://github.com/CCAgentOrg/dpiwatch/issues)
 2. **Submit a PR**: Edit `content/agents/themed-dpi-deep-dive-agent.md`
 
 ---
@@ -193,7 +193,7 @@ git push origin main
 
 | Date | Change | Commit |
 |------|--------|--------|
-| 2026-03-08 | Initial agent creation with 7-day theme rotation | [527aabc](https://github.com/CCAgentOrg/digital-india-newsletter/commit/527aabc) |
+| 2026-03-08 | Initial agent creation with 7-day theme rotation | [527aabc](https://github.com/CCAgentOrg/dpiwatch/commit/527aabc) |
 
 ---
 
