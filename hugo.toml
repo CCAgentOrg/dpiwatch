@@ -10,12 +10,8 @@ theme = 'stack'
   
   [params.sidebar]
     emoji = '📡'
-    subtitle = 'India\'s Digital Public Infrastructure tracker'
-    
-  [params.sidebar.avatar]
-    enabled = true
-    local = true
-    src = 'avatar.png'
+    subtitle = 'India Digital Public Infrastructure tracker'
+    avatar = 'avatar.png'
 
 [menu]
   [[menu.main]]
