@@ -1,8 +1,13 @@
 ---
 title: "Digital India Archiver"
-description: "Tracki
-[truncated]
-iv>
+description: "Tracking India's Digital Public Infrastructure (DPI) ecosystem — from Aadhaar to UPI, ONDC to DigiLocker."
+date: 2026-03-08T10:00:00+05:30
+draft: false
+---
+
+<!-- Automated Badge -->
+<div style="background: linear-gradient(90deg, #1a365d 0%, #2c5282 100%); color: white; padding: 1rem; border-radius: 8px; margin-bottom: 2rem; text-align: center;">
+  <span style="font-size: 1.1rem;">🤖 <strong>AI-Powered</strong> | Daily DPI Briefs at 8:00 AM IST | Themed Deep Dives at 8:30 AM IST</span>
 </div>
 
 <!-- Newsletter Subscribe -->

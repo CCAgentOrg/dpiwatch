@@ -4,8 +4,7 @@ title = 'Digital India Archiver'
 theme = 'PaperMod'
 
 [params]
-  author = 'CashlessConsumer'
-  description = 'Weekly Digital Governance Newsletter – Aadhaar, DPI, data policy, and digital identity developments.'
+  description = 'Weekly Digital Governance Newsletter – tracking Aadhaar, DigiLocker, ONDC, API Setu, and India'
   keywords = ['Digital India', 'DPI', 'Aadhaar', 'eGovernance', 'India Stack', 'UIDAI', 'NPCI', 'ONDC']
   images = ['https://digital-india.cashlessconsumer.in/cover.png']
   ShowReadingTime = true
