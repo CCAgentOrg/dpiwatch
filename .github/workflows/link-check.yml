@@ -1,0 +1,40 @@
+name: Link Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * 1'  # Weekly on Monday
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        run: |
+          wget -q "https://github.com/gohugoio/hugo/releases/download/v0.146.5/hugo_extended_0.146.5_linux-amd64.deb" -O /tmp/hugo.deb
+          sudo dpkg -i /tmp/hugo.deb
+
+      - name: Build Site
+        run: hugo --gc --minify
+
+      - name: Check Links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --timeout 60 --max-retries 3 --accept 200,403,429 public/
+          fail: false
+
+      - name: Create Issue for Broken Links
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: "🔗 Broken Links Detected"
+          content-filepath: ./lychee/out.md
+          labels: "bug, links"
