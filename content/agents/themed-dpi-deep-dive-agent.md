@@ -4,7 +4,7 @@ date: 2026-03-08T12:00:00+05:30
 draft: false
 tags: ["Agents", "AI", "DPI", "Automation"]
 categories: ["Meta"]
-description: "Full agent instruction for the Themed DPI Deep Dive — Digital India Archiver's 8:30 AM rotating deep-dive agent"
+description: "Full agent instruction for the Themed DPI Deep Dive — DPI Watch's 8:30 AM rotating deep-dive agent"
 ---
 
 # 🤖 Agent: Themed DPI Deep Dive
@@ -14,7 +14,7 @@ description: "Full agent instruction for the Themed DPI Deep Dive — Digital In
 | Property | Value |
 |----------|-------|
 | **Name** | Themed DPI Deep Dive |
-| **Blog** | Digital India Archiver |
+| **Blog** | DPI Watch |
 | **Schedule** | Daily @ 8:30 AM IST |
 | **Coverage** | Last 7 days |
 | **Model** | minimax-m2.5 |
@@ -197,4 +197,4 @@ git push origin main
 
 ---
 
-*This agent is part of the Digital India Archiver project. All agent instructions are open source under CC BY-SA 4.0.*
+*This agent is part of the DPI Watch project. All agent instructions are open source under CC BY-SA 4.0.*

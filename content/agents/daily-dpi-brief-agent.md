@@ -4,7 +4,7 @@ date: 2026-03-08T12:00:00+05:30
 draft: false
 tags: ["Agents", "AI", "DPI", "Automation"]
 categories: ["Meta"]
-description: "Full agent instruction for the Daily DPI Brief — Digital India Archiver's 8:00 AM automated newsletter agent"
+description: "Full agent instruction for the Daily DPI Brief — DPI Watch's 8:00 AM automated newsletter agent"
 ---
 
 # 🤖 Agent: Daily DPI Brief
@@ -14,7 +14,7 @@ description: "Full agent instruction for the Daily DPI Brief — Digital India A
 | Property | Value |
 |----------|-------|
 | **Name** | Daily DPI Brief |
-| **Blog** | Digital India Archiver |
+| **Blog** | DPI Watch |
 | **Schedule** | Daily @ 8:00 AM IST |
 | **Coverage** | Last 24 hours |
 | **Model** | minimax-m2.5 |
@@ -235,4 +235,4 @@ git push origin main
 
 ---
 
-*This agent is part of the Digital India Archiver project. All agent instructions are open source under CC BY-SA 4.0.*
+*This agent is part of the DPI Watch project. All agent instructions are open source under CC BY-SA 4.0.*
