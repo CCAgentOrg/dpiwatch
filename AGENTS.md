@@ -1,47 +1,57 @@
-# 🤖 Digital India Archiver — AI Agents
+# 🤖 AI Agents — DPI Watch
 
-## Agent Operations
+This document tracks the AI agents that power the DPI Watch blog.
 
-This blog is maintained by **2 autonomous AI agents** that generate content on a schedule.
+## Active Agents
 
-| Agent | Schedule | Coverage | Agent ID |
-|-------|----------|----------|----------|
-| **Daily DPI Brief** | Daily @ 8:00 AM IST | Last 24 hours — All 7 DPI layers | `2978ac7e-10d1-4421-abdd-7c2b088ff642` |
-| **Themed DPI Deep Dive** | Daily @ 8:30 AM IST | Day-specific deep dives | `58327745-bacb-48a2-b0af-1287342c2350` |
-
-## Agent Source Code
-
-Full agent instructions are open source and version-controlled:
-
-| Agent | Source File |
-|-------|-------------|
-| Daily DPI Brief | [`content/agents/daily-dpi-brief-agent.md`](./content/agents/daily-dpi-brief-agent.md) |
-| Themed DPI Deep Dive | [`content/agents/themed-dpi-deep-dive-agent.md`](./content/agents/themed-dpi-deep-dive-agent.md) |
-
-## How to Improve These Agents
-
-We welcome community contributions to improve the agents:
-
-1. **Open an Issue**: [github.com/CCAgentOrg/dpiwatch/issues](https://github.com/CCAgentOrg/dpiwatch/issues)
-   - Report inaccurate coverage
-   - Suggest new oracle sources to check
-   - Request new topic areas
-
-2. **Submit a PR**: Edit the agent instruction files directly
-   - Modify the agent markdown files in `content/agents/`
-   - Changes merged to `main` will be synced to the live agents
-
-## Technical Details
-
+### 1. Daily DPI Brief
 | Property | Value |
 |----------|-------|
-| **AI Model** | minimax-m2.5 |
-| **Language** | English (EN-IN) |
-| **Coverage Window** | Last 24 hours (brief) / Last 7 days (deep dive) |
-| **Oracle Sources** | 20+ primary authorities (UIDAI, NPCI, ONDC, MeitY, etc.) |
-| **Output Format** | Hugo markdown with frontmatter |
-| **Publishing** | Auto-commit to GitHub → GitHub Pages |
+| **Agent ID** | `2978ac7e-10d1-4421-abdd-7c2b088ff642` |
+| **Schedule** | Daily @ 8:00 AM IST |
+| **Model** | minimax-m2.5 |
+| **Source** | `content/agents/daily-dpi-brief-agent.md` |
 
----
+**Mission**: Publish a comprehensive daily brief covering ALL 7 layers of India's DPI ecosystem.
 
-*All content is AI-generated with human oversight. Agent instructions are open source under CC BY-SA 4.0.*
+**DPI Layers**:
+- L1: Identity (Aadhaar, eKYC, UIDAI)
+- L2: Payments (UPI, RuPay, BBPS)
+- L3: Data (DPDP Act, governance)
+- L4: Platforms (DigiLocker, API Setu)
+- L5: Identity Stack (Auth, eSign)
+- L6: Services (G2C, B2C)
+- L7: Ecosystem (ONDC, ABDM)
+
+**Oracle Sources**: uidai.org.in, npci.org.in, digitalindia.gov.in, ndhm.gov.in, ondc.org
+
+### 2. DPI Deep Dive
+| Property | Value |
+|----------|-------|
+| **Agent ID** | `58327745-bacb-48a2-b0af-1287342c2350` |
+| **Schedule** | Daily @ 8:30 AM IST |
+| **Model** | minimax-m2.5 |
+| **Source** | `content/agents/dpi-deep-dive-agent.md` |
+
+**Mission**: Publish themed deep dive analysis on DPI topics with weekly rotation.
+
+**Daily Themes**:
+- Monday: Aadhaar & Identity
+- Tuesday: UPI & Payments
+- Wednesday: ONDC & Commerce
+- Thursday: Health & ABDM
+- Friday: Data Governance (DPDP)
+- Saturday: DPI Global Exports
+
+## How to Modify
+
+1. **Edit agent instruction**: Modify `content/agents/<agent-name>-agent.md`
+2. **Submit PR**: Changes are synced to live agents
+3. **Open issue**: https://github.com/CCAgentOrg/dpiwatch/issues
+
+## Version History
+
+| Date | Change | Author |
+|------|--------|--------|
+| 2026-03-08 | Added 7-layer DPI coverage with oracle sources | @cashlessconsumer |
+| 2026-03-08 | Initial agent setup | @cashlessconsumer |
