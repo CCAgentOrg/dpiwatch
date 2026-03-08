@@ -1,118 +1,109 @@
 ---
-title: "About"
+title: "About DPI Watch"
 date: 2026-03-08T10:00:00+05:30
 draft: false
-tags: ["About", "Digital India", "DPI", "Automation"]
+tags: ["About", "Meta", "DPI"]
 categories: ["Meta"]
-description: "How the Digital India Archiver newsletter is generated using AI agents"
+description: "About DPI Watch — India's Digital Public Infrastructure monitoring platform"
 ---
 
-# About Digital India Archiver
+# 👁️ DPI Watch
 
-## What is this?
+**India's Digital Public Infrastructure monitoring platform**
 
-**Digital India Archiver** is an automated newsletter tracking India's [Digital Public Infrastructure (DPI)](https://www.meity.gov.in/digital-public-infrastructure) ecosystem. We cover the stack of digital systems powering India's governance, economy, and citizen services.
+DPI Watch tracks India's Digital Public Infrastructure (DPI) ecosystem — the foundational digital systems that enable governance, identity, payments, health, and commerce at population scale.
 
-## The 7 Layers of DPI We Track
+## What We Watch
 
-| Layer | Focus | Key Systems |
-|-------|-------|-------------|
-| **L1** | Identity & Authentication | [Aadhaar](https://uidai.gov.in), PAN, eKYC, DigiLocker |
-| **L2** | Payments & Financial Rails | [UPI](https://www.npci.org.in/what-we-do/upi/product-overview.html), BBPS, CBDC, Account Aggregators |
-| **L3** | Data Exchange & Consent | [API Setu](https://apisetu.gov.in), DigiLocker APIs, DEPA |
-| **L4** | Commerce & Logistics | [ONDC](https://ondc.org), GSTN, e-Way Bill, FASTag |
-| **L5** | Sectoral Digital Stacks | [ABHA](https://abha.gov.in) (Health), AgriStack (Agriculture), NAD (Education) |
-| **L6** | Governance & Service Delivery | [CPGRAMS](https://pgportal.gov.in), UMANG, eOffice, CSCs |
-| **L7** | Regulatory & Security | [DPDP Act](https://www.meity.gov.in/data-protection-framework), [CERT-In](https://www.cert-in.org.in), RBI/SEBI guidelines |
+| Layer | Systems | Focus |
+|-------|---------|-------|
+| **Identity** | Aadhaar, eKYC, DigiLocker | Authentication, privacy, data breaches |
+| **Payments** | UPI, BBPS, AePS | Transaction trends, fraud, outages |
+| **Health** | ABHA, CoWIN, UHI | Health records, digital access |
+| **Commerce** | ONDC, GSTN, eWay | Digital trade, tax, logistics |
+| **Data** | DEPA, DPDP Act, MeitY | Data governance, consent, protection |
+| **Governance** | DARPG, CSCs, eDistrict | Digital service delivery |
+| **Security** | CERT-In, CCTNS, NATGRID | Cybersecurity, surveillance, rights |
 
-## How Content is Generated
+## How It Works
 
-This newsletter is produced by **AI agents** running on [Zo Computer](https://zo.computer), an automated computing platform. Here's the workflow:
+🤖 **AI-Powered Agents**  
+Two specialized agents run daily:
+- **8:00 AM** — Daily DPI Brief (all 7 layers)
+- **8:30 AM** — Themed Deep Dive (weekday layer rotation)
 
-### The Agents
+Each post includes:
+- ✅ Verified sources with clickable links
+- 📊 System health and statistics
+- ⚖️ Citizen rights and privacy implications
+- 📰 Curated from 30+ oracle sources
 
-We run **2 specialized agents** that publish content daily:
+## Oracle Sources
 
-| Agent | Schedule | Coverage | Content |
-|-------|----------|----------|---------|
-| **Daily DPI Brief** | 8:00 AM IST | Last 24 hours | Quick roundup across **all 7 layers** |
-| **Themed Deep Dive** | 8:30 AM IST | Last 7 days | Deep analysis of **one layer per day** |
+### Identity & Authentication
+- [UIDAI](https://uidai.gov.in) — Aadhaar updates, virtual ID, face auth
+- [DigiLocker](https://digilocker.gov.in) — Document storage, eSign
+- [MeitY — API Setu](https://apisetu.gov.in) — eKYC APIs, integrations
+- [CERT-In](https://cert-in.org.in) — Aadhaar-related security alerts
 
-### Content Rotation (Themed Deep Dive)
+### Payments
+- [NPCI](https://npci.org.in) — UPI, RuPay, IMPS updates
+- [RBI](https://rbi.org.in) — Payment systems, PPIs, CBDC
+- [BBPS](https://bbpsnpci.org) — Bill payment system
 
-| Day | Theme |
-|-----|-------|
-| Monday | L1: Identity & Authentication |
-| Tuesday | L2: Payments & Financial Rails |
-| Wednesday | L3: Data Exchange & Consent |
-| Thursday | L4: Commerce & Logistics |
-| Friday | L5: Sectoral Digital Stacks |
-| Saturday | L6: Governance & Service Delivery |
-| Sunday | L7: Regulatory & Security |
+### Health
+- [ABDM](https://abdm.gov.in) — Ayushman Bharat Health Account
+- [NHA](https://nha.gov.in) — Health claims, hospital empanelement
+- [MoHFW](https://mohfw.gov.in) — Health policy, digital health
 
-## Data Sources
+### Commerce & Tax
+- [ONDC](https://ondc.org) — Open network protocol, seller onboarding
+- [GSTN](https://gst.gov.in) — GST portal, e-invoicing
+- [ICEGATE](https://icegate.gov.in) — Customs, trade facilitation
 
-Our agents scan and synthesize information from:
+### Data & Privacy
+- [MeitY — Data Governance](https://meity.gov.in/data-governance) — DEPA, consent frameworks
+- [DPDP Act Updates](https://meity.gov.in/digital-personal-data-protection-act-2023) — Compliance, implementation
+- [Data Empowerment & Protection Architecture (DEPA)](https://depa.foundation) — Consent managers, AA ecosystem
 
-- **Official Stack Operators**: [UIDAI](https://uidai.gov.in), [NPCI](https://www.npci.org.in), [ONDC](https://ondc.org), [MeitY](https://www.meity.gov.in), [DARPG](https://darpg.gov.in)
-- **Government Portals**: [PIB](https://pib.gov.in), [Press Releases](https://www.meity.gov.in/official-website-ministry-electronics-and-information-technology/press-releases), Gazette notifications
-- **Regulatory Bodies**: [RBI](https://www.rbi.org.in), [SEBI](https://www.sebi.gov.in), [TRAI](https://www.trai.gov.in), [CERT-In](https://www.cert-in.org.in)
-- **Verified News**: Economic Times, Business Standard, Inc42, The Ken, TechCrunch India
+### Governance & Citizen Services
+- [DARPG](https://darpg.gov.in) — Public grievances, service delivery
+- [CSC eGovernance](https://csc.gov.in) — Common Services Centres
+- [eDistrict](https://edistrict.gov.in) — State-level digital services
+- [UMANG](https://umang.gov.in) — Unified mobile app platform
 
-## Human Oversight
+### Consumer & Citizen Rights
+- [RBI Ombudsman](https://cms.rbi.org.in) — Payment grievances
+- [SEBI SCORES](https://scores.sebi.gov.in) — Securities complaints
+- [CPGRAMS](https://pgportal.gov.in) — Public grievances
+- [National Consumer Helpline](https://consumerhelpline.gov.in) — Consumer complaints
+- [Digital India Helpline](https://digitalindia.gov.in) — DPI support
 
-While content is AI-generated, it is:
-- ✅ Sourced from official and verified channels
-- ✅ Cross-checked where multiple sources exist
-- ✅ Linked to original sources (every URL is clickable)
-- ⚠️ Subject to verification for critical decisions
+### Research & Advocacy
+- [Vidhi Centre for Legal Policy](https://vidhilegalpolicy.in) — Legal-tech research
+- [The Ken — DPI coverage](https://the-ken.com) — In-depth reporting
+- [Medianama](https://medianama.com) — Tech policy, privacy
+- [Internet Freedom Foundation](https://internetfreedom.in) — Digital rights advocacy
+- [Centre for Internet and Society](https://cis-india.org) — Research, policy
 
-## About the Archiver
+### Security & Surveillance
+- [CERT-In](https://cert-in.org.in) — Cybersecurity advisories
+- [NCIIPC](https://nciipc.gov.in) — Critical infrastructure protection
+- [NATGRID](https://natgrid.gov.in) — Security data integration
+- [CCTNS](https://cctns.gov.in) — Crime tracking network
 
-**Digital India Archiver** is a project by [CashlessConsumer](https://cashlessconsumer.in), focused on documenting and analyzing India's digital transformation. We believe in:
+## Contribute
 
-- **Transparency**: All sources cited with clickable links
-- **Comprehensiveness**: Covering the full DPI stack, not just popular layers
-- **Accessibility**: Making complex infrastructure understandable
+This blog is **open source**. The AI agents that generate content are version-controlled and community-improvable.
 
-## Technical Stack
+- [View Agents](https://github.com/CCAgentOrg/dpiwatch/tree/main/content/agents)
+- [Suggest Changes](https://github.com/CCAgentOrg/dpiwatch/issues)
+- [Edit on GitHub](https://github.com/CCAgentOrg/dpiwatch)
 
-- **Platform**: [Zo Computer](https://zo.computer) — AI agent infrastructure
-- **Site Generator**: [Hugo](https://gohugo.io) with [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme
-- **Hosting**: [GitHub Pages](https://pages.github.com) with custom domain
-- **Repository**: [github.com/CCAgentOrg/digital-india-newsletter](https://github.com/CCAgentOrg/digital-india-newsletter)
+## A CashlessConsumer Project
 
-## 🤖 Agent Source Code
-
-The AI agents that generate this newsletter are **open source** and documented in detail:
-
-| Agent | Schedule | Coverage | Source Code |
-|-------|----------|----------|-------------|
-| **Daily DPI Brief** | Daily @ 8:00 AM IST | Last 24 hours across all 7 DPI layers | [View Agent Instructions →](/agents/daily-dpi-brief-agent/) |
-| **Themed DPI Deep Dive** | Daily @ 8:30 AM IST | Last 7 days, rotating daily themes | [View Agent Instructions →](/agents/themed-dpi-deep-dive-agent/) |
-
-### How to Improve the Agents
-
-These agents' instructions are version-controlled and open for community improvement:
-
-1. **Open an Issue**: [github.com/CCAgentOrg/digital-india-newsletter/issues](https://github.com/CCAgentOrg/digital-india-newsletter/issues)
-   - Suggest new oracle sources to check
-   - Report coverage gaps or inaccuracies
-   - Propose formatting improvements
-
-2. **Submit a PR**: Edit the agent instruction files directly
-   - Fork the repo
-   - Modify `content/agents/*.md`
-   - Submit pull request with rationale
-
-3. **Review Changes**: Agent improvements are publicly visible and auditable
-
-## Get in Touch
-
-- 🐦 Twitter: [@CashlessConsumer](https://twitter.com/CashlessConsumer)
-- 💻 GitHub: [CCAgentOrg](https://github.com/CCAgentOrg)
-- ✉️ Email: [CashlessConsumer](https://cashlessconsumer.in/contact)
+🔗 **[cashlessconsumer.in](https://cashlessconsumer.in)** — Consumer advocacy & research for India's digital payments ecosystem
 
 ---
 
-*Last updated: March 8, 2026 | Agents active since March 2026*
+*All content is AI-generated with source verification and human oversight.*
