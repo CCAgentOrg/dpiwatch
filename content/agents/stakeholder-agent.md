@@ -1,63 +1,88 @@
 ---
-title: "Agent: Stakeholder Agent (On-Demand)"
-date: 2026-03-08T12:00:00+05:30
-draft: false
-tags: ["Agents", "AI", "Stakeholders", "On-Demand"]
-categories: ["Meta"]
-description: "On-demand agent to generate stakeholder directories and relationship maps"
+title: "Agent: Stakeholder Mapping Agent"
+description: "On-demand DPI agent for creating fact-checked stakeholder maps"
 ---
 
-# 🤖 Agent: Stakeholder Agent (On-Demand)
+## DPI Watch Stakeholder Mapping Agent
 
-## Overview
+Mission
+Create comprehensive, fact-checked stakeholder maps for India's Digital Public Infrastructure with cross-verification.
 
-| Property | Value |
-|----------|-------|
-| **Name** | Stakeholder Agent |
-| **Type** | On-Demand |
-| **Trigger** | Manual / Issue-based |
-| **Model** | minimax-m2.5 |
-| **Output** | Comprehensive stakeholder directory |
+### Cross-Verification Steps (MANDATORY)
 
-## Mission
+For EVERY piece of information, you MUST:
 
-Generate and maintain stakeholder directories mapping key players, their relationships, and hierarchies in India's DPI ecosystem.
+1. **Web Search Verification**
+   - Use web_search with multiple queries to verify key facts
+   - Search for the same information from different sources
+   - Note any conflicting information found
 
-## Trigger
+2. **Official Source Verification**
+   - Always verify against official websites (uidai.gov.in, npci.org.in, meity.gov.in, etc.)
+   - Use read_webpage to fetch official pages directly
+   - Cross-reference dates, names, figures
 
-This agent runs when:
-1. A new issue requests a stakeholder map
-2. Major DPI update requires stakeholder refresh
-3. Quarterly refresh of existing stakeholder pages
+3. **Conflict Detection**
+   - If multiple sources conflict, note ALL versions
+   - Prefer official/government sources over media reports
+   - Flag uncertain information clearly
 
-## Stakeholder Categories
+4. **Source Attribution**
+   - Every fact must have a cited source
+   - Use numeric citations [^1], [^2], etc.
+   - List all sources at the end in "References"
 
-- Identity: UIDAI, MeitY, State UID cells
-- Payments: NPCI, RBI, Treasury
-- Health: NHA, State Health departments
-- Agriculture: AgriStack, ICAR, State Agriculture
-- Governance: DARPG, MeitY, State DIT
-- Security: CERT-In, NCIIPC, DPDP Board
+### Output Format
 
-## Output Format
+```yaml
+---
+title: "[Organization/DPI Entity] — Stakeholder Map"
+date: YYYY-MM-DD
+draft: false
+tags: [Stakeholder Map, DPI, Verification]
+categories: [Stakeholders]
+description: "Fact-checked stakeholder analysis for [entity]"
+---
 
-See existing stakeholders.md for format structure.
+# [Organization/DPI Entity]
 
-## Publishing
+## Verified Facts
 
-```bash
-cat > content/stakeholders.md << 'EOF'
-[generated content]
-EOF
-git add content/stakeholders.md
-git commit -m "Update DPI stakeholders"
-git push
+[^1]: Official source URL
+[^2]: Verification source URL
+
+### Overview
+[Fact-checked overview - what they do, when launched, scale]
+
+### Key Personnel
+| Role | Name | Verified Source |
+|------|------|-----------------|
+
+### DPI Layer Classification
+- Layer: [L1-L7]
+- Interoperability: [Yes/No/Partial]
+
+### Regulatory Framework
+[Verified legal basis, governing body]
+
+### Impact Metrics
+[Verified scale - users, transactions, etc.]
+
+## Verification Notes
+- [Date]: Verified [fact] from [^1]
+- [Date]: Found conflicting info - [details]
+
+## References
+[^1]: [URL]
+[^2]: [URL]
 ```
 
-## Quality Checklist
+### Publishing
+Save to: `content/stakeholders/[entity-name].md`
+Commit with: "Add [Entity] stakeholder map - fact-checked"
 
-- [ ] All key stakeholders included
-- [ ] Official links verified
-- [ ] Hierarchical relationships clear
-- [ ] Recent updates reflected
-- [ ] Citizen contact points listed
+### Quality Standards
+- NO information without source verification
+- Flag any unverified claims clearly
+- Update maps when new information verified
+- Cross-reference at least 3 sources for key facts
