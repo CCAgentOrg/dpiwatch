@@ -19,11 +19,9 @@ image: /images/explainers/aadhaar.jpg
 **Aadhaar** (आधार) is India's unique 12-digit identity number issued by the **Unique Identification Authority of India (UIDAI)**. It is the world's largest digital identity system, covering 1.4+ billion residents - nearly every Indian citizen and resident.
 
 ### Key Facts
-- **Launch**: 12-digit number launched September 2010
-- **Enrolment**: 1.4+ billion
-- **Verification**: 100+ crore monthly authentications
-- **Legal Framework**: Aadhaar Act 2016
-- **Cost**: Free (subsidized by government)
+- **Enrolment**: 1.4+ billion[^1]
+- **Monthly Authentications**: 231+ crore (November 2025)[^2]
+- **Legal Framework**: Aadhaar Act 2016[^1]
 
 ---
 
@@ -282,3 +280,7 @@ Aadhaar has transformed identity verification in India, enabling direct benefits
 - [mAadhaar App](https://uidai.gov.in/maadhaar-app) - Mobile Aadhaar app
 - [Aadhaar Data Vault](https://uidai.gov.in/aadhaar-data-vault) - Secure data storage
 - [RBI KYC Guidelines](https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=11566) - Aadhaar-linked KYC
+
+[^1]: https://uidai.gov.in/en/about-uidai/unique-identification-authority-of-india.html - UIDAI official about page
+[^2]: https://uidai.gov.in/en/305-faqs/aadhaar-online-services/aadhaar-authentication-history.html - UIDAI authentication statistics
+[^3]: https://uidai.gov.in/en/media-resources/media/press-releases.html - UIDAI official press releases
