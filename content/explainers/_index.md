@@ -24,6 +24,7 @@ Welcome to our comprehensive series explaining India's Digital Public Infrastruc
 | [UPI 101](/explainers/101-upi/) | Real-time payments |
 | [NPCI 101](/explainers/101-npci/) | Payment infrastructure |
 | [Jan Dhan 101](/explainers/101-jandhan/) | Financial inclusion |
+| [CBDC / Digital Rupee 101](/explainers/101-cbdc/) | India's central bank digital currency |
 
 ## 📄 Documents & Data
 
