@@ -5,11 +5,11 @@ draft: false
 tags: ["DPI", "Deep Dive", "Layer: Friday"]
 categories: ["DPI Deep Dive"]
 description: "Weekly analysis of Friday layer in India's Digital Public Infrastructure"
+---
 
 # DPI Deep Dive — Friday | June 19, 2026
 
 This week's Friday deep dive covers **L5: Sectoral Infrastructure** — the domain-specific digital public infrastructure layers that build on top of India's foundational identity, payments, and data exchange rails. Three sectors saw significant movement in the past seven days: digital agriculture (AgriStack), digital health (ABDM/ABHA), and digital judiciary (eCourts + AI).
-
 ---
 
 ## 1. AgriStack Expands to West Bengal and Sikkim as PM-KISAN 23rd Instalment Approaches
