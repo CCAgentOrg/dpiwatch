@@ -17,13 +17,17 @@ At the 16th BRICS Health Ministers' Meeting in Chandigarh (July 21–24), Union 
 
 The BRICS side event, titled *"From Digital Health Records to AI-Enabled Healthcare: Strengthening the Continuum of Care Through Interoperable Data Infrastructure and Responsible Artificial Intelligence,"* was organised by the National Health Authority. Srivastava's core argument was striking in its simplicity: **continuity of care is the true measure of whether digital health and AI are serving citizens.** This is a significant framing shift from the government's usual supply-side metrics (IDs created, facilities registered) towards actual patient outcomes.
 
+The BRICS context matters. India is positioning ABDM not just as a domestic tool but as an exportable DPI model. The 940-million figure — roughly 67% of India's population — gives India credible standing to pitch its approach to Brazil, South Africa, and other nations building their own health information exchanges. The side event explicitly discussed "responsible AI" in healthcare, signalling that India wants to lead the global conversation on governing AI within public health systems, not just deploying it.
+
 **Cross-layer connection:** ABHA's 940-million user base makes it the second-largest digital identity stack in India after Aadhaar. The ABHA ID is increasingly being linked with Aadhaar for authentication, creating a seamless L1→L5 pipeline where identity (Aadhaar) feeds directly into health records (ABHA). For the BRICS audience, this is India's pitch for exporting its DPI model — not just the software, but the entire institutional architecture.
 
 ## 2. Tamil Nadu Scales Up ABHA Creation: 2.54 Crore Covered
 
 At the state level, Tamil Nadu has emerged as a significant ABHA adopter, with **2.54 crore ABHA accounts created** across government healthcare facilities. [^2] This is notable because Tamil Nadu has historically been cautious about central digital identity schemes. The state-level push indicates that ABHA is being integrated into routine healthcare delivery — not just treated as a standalone registration exercise.
 
-**Why this matters:** State-level adoption is the real bottleneck for any national DPI. ABHA's 940 million national figure looks impressive, but the distribution is uneven. Tamil Nadu's 2.54 crore (approximately 35% of its population) suggests genuine facility-level integration rather than camp-based registration drives that inflate numbers without creating lasting usage.
+Parliamentary data tabled by Union Health Minister JP Nadda on July 21 also revealed that India had **46.02 lakh registered nursing personnel** as of December 31, 2025, giving a nurse-to-population ratio of 2.60 per 1,000 — still below the WHO benchmark. [^3] The NCAHP (National Commission for Allied and Healthcare Professions) has released competency-based curricula for 17 professions covering 28 roles for academic year 2026-27, standardising the workforce that will ultimately operate within the ABDM ecosystem. [^4]
+
+**Why this matters:** State-level adoption is the real bottleneck for any national DPI. ABHA's 940 million national figure looks impressive, but the distribution is uneven. Tamil Nadu's 2.54 crore (approximately 35% of its population) suggests genuine facility-level integration rather than camp-based registration drives that inflate numbers without creating lasting usage. The nursing workforce data and NCAHP curricula point to a deeper challenge: digital health infrastructure is only as useful as the human workforce that operates within it. India is simultaneously building the digital rails and standardising the professionals who will use them.
 
 ## 3. Census 2027 Self-Enumeration Goes Live: Digital Identity Meets Demographic Data
 
