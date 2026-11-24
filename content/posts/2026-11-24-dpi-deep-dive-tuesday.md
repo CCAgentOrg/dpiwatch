@@ -1,0 +1,81 @@
+---
+title: "DPI Deep Dive — Tuesday | November 24, 2026"
+date: 2026-11-24T08:30:00+05:30
+draft: false
+tags: ["DPI", "Deep Dive", "Layer: Tuesday"]
+categories: ["DPI Deep Dive"]
+description: "Weekly analysis of Tuesday layer in India's Digital Public Infrastructure"
+---
+
+# DPI Deep Dive — Tuesday | November 24, 2026
+
+**Focus Layer:** L2 — Payments & Financial Rails: NPCI, UPI, RuPay
+**Coverage Period:** November 17 – November 24, 2026
+
+## Executive summary
+
+The payments layer spent this week circling a fee that refuses to be born. On November 19, Moneycontrol reported that the UPI merchant discount rate (MDR) rollout may now slip past the 2027 assembly elections in Uttar Pradesh, Punjab, Uttarakhand, Goa and Manipur, with the government, RBI and NPCI yet to agree on an implementation date despite the regulatory and operational groundwork being largely complete.[^1] That would be the third slip for a framework announced in September, scheduled for October 15, deferred on October 13 to "immediately post-Diwali," and still undated a full fortnight after Deepavali.[^2][^3] The same day, Business Standard and ETBFSI reported that government incentives for UPI and RuPay transactions have gone unpaid for six quarters — with the Payments Council of India taking the grievance to the Centre, and Paytm and Pine Labs shares having fallen on the delay.[^4] Meanwhile the committee that owns UPI pricing quietly reshaped the fee itself — a flat ₹5 for B2B transactions was cleared but remains unnotified[^5][^6] — and pre-committed its future revenue to the UPI Vyapaar Saksham acceptance subsidy, funded "through MDR collections" that do not yet exist.[^7] Around the pricing drama, the rails themselves set records: October's 25.47 billion transactions worth ₹31.53 lakh crore made it the first month above ₹30 lakh crore, with average daily value crossing ₹1 lakh crore for the first time.[^8] And the fraud frontier moved decisively onto the handset, with NPCI opening talks with Google on Android-level defences against the malware now stealing UPI PINs.[^9]
+
+## Key developments
+
+### 1. The fee that keeps slipping: MDR rollout now reportedly aimed past the 2027 elections
+
+The week's defining report arrived on November 19: Moneycontrol, citing people familiar with the matter, wrote that the MDR rollout may be delayed until after the 2027 assembly elections, and that while much of the groundwork is done, the government, RBI and NPCI have yet to agree on an implementation date.[^1] The procedural history is worth restating because it is now the story. In August 2022 the finance ministry declared UPI a digital public good and ruled out charges; in June 2025 it dismissed MDR reports; the enabling legislative amendment followed in August 2026, with the tariff framework announced in September and an October 15 start date.[^2] On October 13, the UPI and Services Steering Committee deferred implementation "immediately post Diwali at a date to be notified separately."[^2] By November 10 — two days after Deepavali — NPCI's spokesperson was telling The Hindu there was "no announcement on this at the moment."[^3]
+
+The framework itself is narrow by design: 0.4% MDR on specified person-to-merchant transactions above ₹2,000, capped at ₹300 for payments of ₹75,000 and above; P2P transfers and payments up to ₹2,000 untouched; small P2PM merchants receiving up to ₹1 lakh monthly exempt; concessional flat ₹5 rates for railways, telecom, insurance and fuel; 0.02% capped at ₹300 for capital-market transactions.[^2] Only about 4% of merchant transactions fall within its scope — which makes the intensity of the resistance, from retailers to petrol pump dealers, a measure of how politically loaded any UPI fee has become, not of its economic weight.[^2]
+
+The delay now has three costs attached. Predictability: press reporting of NPCI's November 3 Supreme Court submission defending the 0.4% framework suggests the legal defence and the operational reality have decoupled — the same industry that asked for cost recovery has been handed a start date that has moved three times.[^10] The incentive stack: PCI is flagging both the MDR vacuum and six quarters of unpaid government incentives, meaning the people financing free UPI at the margin have been running on credit since early 2025.[^4] And markets are pricing the ambiguity: Paytm and Pine Labs shares fell when the post-Diwali date failed to materialise.[^4] A levy designed to make the world's largest real-time payment system self-sustaining has become a rolling test of whether India's standard-setting body can actually set a price and hold it.
+
+### 2. A flat ₹5 for B2B: the fee's shape changed before the fee existed
+
+The same November 19 news cycle carried a quieter design change. CNBC-TV18 reported that NPCI's UPI and Services Steering Committee cleared — roughly a month earlier — a flat ₹5 MDR for B2B UPI payments: transactions between businesses such as distributor-to-retailer payments, and merchant payments routed through B2B platforms and marketplaces.[^5] The September framework had no distinct rate for merchant-to-merchant transactions at all; the flat ₹5 fills that gap, replacing what would otherwise have been percentage-based treatment for high-value flows.[^5][^6] It is cleared but not notified, with no rollout date — the fee's architecture is being finalised before anyone will say when the fee begins.[^5]
+
+The design deserves scrutiny. A flat per-transaction fee is regressive by construction: ₹5 on a ₹2,500 distributor payment is 0.2%, while ₹5 on a ₹5 lakh replenishment order is 0.001%. That tilts the burden toward small businesses transacting in modest values — precisely the segment the zero-MDR framework was built to protect, and precisely the segment least able to negotiate it away. It also insulates the largest B2B flows almost completely, which is where large banks, large acquirers and platform marketplaces concentrate. Mint's reporting adds that investor sentiment has been clouded by the uncertainty, and that the October 15 rollout was postponed after retailer objections — industry proposes, retailers object, the committee shrinks the fee, and no one is accountable for the timetable.[^6] Pricing for the country's dominant payment rail is being set by a committee whose deliberations surface through leaks rather than consultation papers; the RBI, notably, runs its own payment consultations in public with comment deadlines.[^13]
+
+### 3. Vyapaar Saksham: an acceptance subsidy pre-funded by revenue that doesn't exist
+
+On November 11, NPCI notified the UPI Vyapaar Saksham Scheme — a dedicated incentive scheme to expand UPI acceptance infrastructure and transaction volumes among small merchants.[^7] The mechanics: cash incentives to merchant-acquiring banks for deploying QR codes and soundboxes in Tier 3 to Tier 6 cities, northeastern states, Jammu & Kashmir and Ladakh, plus a 0.20% incentive on incremental transaction-value growth to reward acquirers for bringing more payment value into the system.[^7][^11] The scheme runs for three years from the date MDR is implemented, and is funded through MDR collections — a detail Moneycontrol's November 19 report confirmed via Financial Express.[^1]
+
+An acceptance subsidy for underserved geographies is genuinely good policy — soundboxes and QR density are the real bottleneck for merchants who cannot afford smartphones. But the funding design means the subsidy exists only if the fee exists: if MDR never launches, Vyapaar Saksham never funds. NPCI has pre-committed revenue from a charge with no start date, while the government's own incentive payments to the same ecosystem sit six quarters in arrears.[^4] And MediaNama's coverage reiterates that NPCI exempts itself from the RTI Act, so the scheme's disbursement data and coverage claims will be whatever NPCI chooses to publish.[^7] Acceptance infrastructure built on unearned revenue, administered by an entity outside transparency law — the layer's governance has not kept pace with its engineering.
+
+### 4. The handset is the new fraud perimeter — and the rulebook is arriving in three layers
+
+On November 17, The Economic Times reported that NPCI has opened talks with Google on Android-level safeguards against UPI fraud, driven by a new attack class that targets the handset itself: sideloaded malicious apps and overlay malware that silently capture UPI PINs while the victim believes they are typing into a legitimate app.[^9] Payment apps want the operating system to block the malware, not just users to be warned about it; security experts quoted in the report want banks and fintechs to add server-side device-integrity checks as well.[^9]
+
+The regulatory parallel track is already moving. RBI's November 5 Master Directions for non-bank payment system operators mandate a 12-hour cooling period on online payments after a registered mobile number or email change, plus device and SIM binding, idle-session logout, and blocking payments while screen-sharing apps run — large and medium operators now, small ones from April 1, 2028.[^12] Draft directions on top propose default-off payment channels at onboarding, a "Stop Switch" blocking new debits, mandates and UPI registration on new third-party apps once activated, and trusted-person approval for large specified transfers — with comments open until December 14, 2026.[^13]
+
+Three layers, three timelines, one perimeter. The fraud economics explain the shift: as transaction-level authentication hardened, attackers moved to the device, where the "customer" and the attacker share one screen. The consumer-protection risk in the response is friction asymmetry — default-off channels and stop switches will be discovered by legitimate users at the worst moment (a declined payment at a petrol pump), while a malware operator who already holds the unlock pattern and the SIM has breached the model's assumptions. The December 14 comment deadline is the layer's best near-term lever, and it belongs to everyone: comments are public input, not industry lobbying.
+
+### 5. Records on the rail, and the credit-on-UPI land grab they finance
+
+NPCI's October data, released during the window, set records on every axis: 25.47 billion transactions (up 23% year-on-year, 5.8% month-on-month from September's 24.07 billion) worth ₹31.53 lakh crore (up 16% YoY, 7.4% MoM) — the first month above ₹30 lakh crore, with average daily value at ₹1,01,707 crore crossing the ₹1 lakh crore mark for the first time on an average of 822 million transactions per day.[^8] The festive peak was literal: November 7, the day before Deepavali, saw a single-day record of 97.58 crore (975.8 million) transactions worth ₹1,36,118 crore, with Diwali day itself at 91.69 crore transactions worth ₹90,029 crore.[^14] IMPS, the layer's quiet second rail, moved ₹7.63 lakh crore in October, up 19% year-on-year.[^15]
+
+Beneath the volume records sits a market-structure fact: in September, PhonePe held 45.6% of UPI transaction volume, Google Pay 32.2% and Paytm 8.1% — nearly 86% across three apps — and Paytm's founder used the Q2 FY27 earnings call to declare an ambition of one-third of consumer payments, to be won with credit attached.[^8] That is where RuPay enters: credit cards can run on UPI only through RuPay, so the week's card launches were RuPay plays. On November 18, YES BANK and novio launched a dual credit card — a physical Mastercard and a virtual RuPay card sharing one credit limit, lifetime-free, earning 10 novio Coins per ₹100 on eligible UPI spends — novio's first unsecured product, following RuPay card launches with Indian Overseas Bank in September and the Paytm–AU Small Finance Bank card in October.[^16][^17]
+
+The structural read: with MDR limbo freezing merchant-side monetisation on ~96% of transactions, issuers and PSPs are routing their business models through the one rail that already carries interchange — credit on UPI. Whether RuPay credit-card transactions on UPI will eventually be pulled into the MDR net is unclarified, and that ambiguity is now a first-order variable for every card launch in the pipeline. The layer's free rails are becoming the customer-acquisition channel for its priced products; the pending pricing decisions will decide whether that stays an anomaly or becomes the design.
+
+## Cross-layer connections
+
+The week's payments news is threaded through the rest of the stack. **L7 (Security, Privacy & Trust):** the NPCI–Google talks, RBI's November 5 Master Directions and the December 14 fraud consultation are one fraud perimeter defended in three jurisdictions — handset, operator, network.[^9][^12][^13] **L6 (Governance):** the MDR saga is a governance story wearing a pricing costume — a committee that is RTI-exempt sets the country's most economically significant payment price through unnotified decisions and press leaks, while RBI runs its own parallel consultations in public.[^3][^7][^13] **L4 (Commerce):** the flat ₹5 B2B fee prices the distributor-to-retailer rail that moves goods to kiranas; its regressive per-transaction shape will show up in wholesale margins before it ever shows up in a circular.[^5] **Welfare:** six quarters of unpaid incentives strain exactly the assisted-payment networks — neighbourhood retailers and banking-correspondent style acquirers — that the Vyapaar Saksham scheme claims to want more of.[^4][^7] **L1 (Identity):** device binding in the RBI directions quietly extends identity infrastructure from persons to handsets; the SIM-bound device is becoming the de facto authentication token for the payments layer.[^12]
+
+## What to watch
+
+Four dated triggers. **Rolling** — the MDR implementation date: any notification before the 2027 election cycle begins contradicts the November 19 reporting; continued silence confirms it.[^1] **December 14, 2026** — RBI's comment deadline on default-off channels, the Stop Switch and trusted-person approvals; the final directions will define the fraud rulebook's consumer-friction balance.[^13] **Early December** — NPCI's November data release, the first festive-month read after the 97.58-crore single-day record.[^14] **FY27** — whether the B2B flat ₹5 and Vyapaar Saksham are notified together with MDR, and whether RuPay credit-on-UPI stays outside the MDR net; either answer redraws the credit-card market's economics.[^5][^7]
+
+[^1]: https://www.moneycontrol.com/news/business/upi-mdr-rollout-may-be-delayed-until-after-2027-assembly-elections-report-14084125.html
+[^2]: https://www.policyedge.in/p/inquiry-insights-upi-merchant-fees-and-the-case-for-npci-pricing-governance
+[^3]: https://www.thehindu.com/business/Economy/two-days-past-deepavali-npci-yet-to-announce-a-date-for-upi-mdr-rollout/article71689098.ece
+[^4]: https://bfsi.eletsonline.com/upi-mdr-delay-fintech-incentives
+[^5]: https://www.cnbctv18.com/business/b2b-upi-payments-may-see-flat-5-mdr-rollout-date-still-unclear-20037392.htm
+[^6]: https://www.livemint.com/money/upi-fee-shock-eased-b2b-transactions-may-now-attract-just-5-charge-under-revised-mdr-plan-11795088050504.html
+[^7]: https://www.medianama.com/2026/11/223-npci-upi-mdr-vyapaar-saksham-scheme
+[^8]: https://entrackr.com/news/upi-hits-record-2547-bn-transactions-in-october-daily-value-crosses-rs-1-lakh-crore-12772871
+[^9]: https://bfsi.eletsonline.com/npci-google-android-upi-fraud
+[^10]: https://krishnakky.com/blog/upi-mdr-supreme-court-npci-p2m-0-4-percent-merchant-discount-rate-spring-boot-fee-engine
+[^11]: https://x.com/AbhiChtrj/status/2120918539926483117
+[^12]: https://blogs.netasampark.com/post/rbi-12-hour-cooling-period-mobile-number-change-payment-app-device-binding-rules
+[^13]: https://www.policyedge.in/p/rbi-proposes-default-off-payment-channels-stop-switch-and-trusted-person-approval-to-prevent-fraud
+[^14]: https://indtoday.com/upi-transactions-october-2026-record-rs-31-53-lakh-crore
+[^15]: https://www.freepressjournal.in/business/upi-transactions-hit-2547-billion-in-october-value-soars-to-3153-lakh-crore
+[^16]: https://www.indiafintech.org/2026/11/19/yes-bank-novio-dual-credit-card-mastercard-rupay
+[^17]: https://cardpolo.com/news/yes-bank-novio-credit-card-launch-mastercard-rupay-upi-lifetime-free-november-2026
